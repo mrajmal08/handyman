@@ -1,0 +1,45 @@
+<?php 
+
+return array (
+
+	'user' => [
+		'incorrect_password' => 'Невірний пароль',
+		'password_updated' => 'Пароль Оновлено',
+		'location_updated' => 'Місце оновлено',
+		'profile_updated' => 'Профіль оновлено',
+		'user_not_found' => 'Замовник не знайдений',
+		'not_paid' => 'Замовник не оплачується',
+	],
+	'ride' => [
+		'request_inprogress' => 'Запит вже триває',
+		'no_providers_found' => 'Не знайдено виконавців',
+		'request_cancelled' => 'Ваш сервіс скасовано',
+		'already_cancelled' => 'Сервіс вже скасовано',
+		'already_onride' => 'Ви вже на службі',
+		'provider_rated' => 'Оцінка постачальника',
+		'request_scheduled' => 'Послуга запланована',
+		'request_already_scheduled' => 'Послуга вже запланована',
+	],
+	'something_went_wrong' => 'Щось пішло не так',
+	'logout_success' => 'Вийшов із системи успішно',
+	'email_available' => 'Доступний електронний лист',
+	'services_not_found' => 'Послуги не знайдено',
+	'promocode_applied' => 'Промо-код застосовано',
+	'promocode_expired' => 'Термін дії промо-коду минув',
+	'promocode_already_in_use' => 'Промо-код вже використовується',
+	'paid' => 'Сплачено',
+	'added_to_your_wallet' => 'Додано до вашого гаманця',
+	'push' => [
+		'request_accepted' => 'Ваша послуга прийнята виконавцем',
+		'arrived' => 'Виконавець прибув до Вашого місця знаходження!',
+		'incoming_request' => 'Надійшла нова послуга',
+		'added_money_to_wallet' => ' Додано до вашого гаманця',
+		'charged_from_wallet' => ' Стягується з гаманця',
+		'document_verfied' => 'Ваші документи підтверджені. Тепер ви готові розпочати свій бізнес',
+		'provider_not_available' => 'Вибачте за незручності, Ваш виконавець зайнятий. Спробуйте через деякий час',
+		'user_cancelled' => 'Замовник скасував послугу',
+		'provider_cancelled' => 'Виконавець скасував послугу',
+		'schedule_start' => 'Ваша послуга за розкладом була розпочата',
+		'ride_scheduled' => 'Ваша послуга була запланована',
+	],
+);
